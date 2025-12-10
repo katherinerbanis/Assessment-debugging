@@ -5,5 +5,7 @@ description = "CCHC Assessment Debugging Q4"
 authors = [{ name = "Katherine Moyer", email = "katherinerbanis@gmail.com" }]
 readme = "README.md"
 requires-python = "<=3.11"
-dependencies = [
-]
+dependencies = ["dash>=2.0.0",
+                "plotly>=5.0.0",
+                "numpy",
+                "pandas"]
